@@ -1,0 +1,17 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem 10%;
+}
+.logo{
+  margin-right: auto;
+  font-size: xx-large;
+}
+.nav-items{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 1.5rem;
+  font-size: large;
+}

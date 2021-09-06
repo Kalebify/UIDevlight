@@ -1,0 +1,7 @@
+<div class="container">
+  <app-topbar></app-topbar>
+  <app-header></app-header>
+  <app-form-search (inputEvent)="getDeals($event)"></app-form-search>
+  <app-deals [deals]="deals | async"></app-deals>
+  <app-footer></app-footer>
+</div>

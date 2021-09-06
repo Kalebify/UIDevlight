@@ -1,0 +1,17 @@
+<div class="deals-cards">
+  <div class="deal-card" *ngFor="let deal of deals">
+    <div class="deal-hearder">
+      <img class="img-card" src="{{deal.thumb}}" />
+      <h3 class="title">{{deal.title}}</h3>
+    </div>
+    <div class="deal-description">
+      <h4>{{deal.steamRatingText}}</h4>
+      <h4>Rating : {{deal.steamRatingPercent}}</h4>
+    </div>
+    <div class="deal-btn">
+      <button class="btn-primary">
+        <del>${{deal.normalPrice}}</del> ${{deal.salePrice}}
+      </button>
+    </div>
+  </div>
+</div>
